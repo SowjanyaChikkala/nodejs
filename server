@@ -1,0 +1,6 @@
+const http=require("http")
+const server=http.createServer((req,res)=>{
+  res.write("Server is working")
+})
+server.listen(7000,()=>{
+console.log("started!")})
