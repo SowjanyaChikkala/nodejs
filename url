@@ -1,0 +1,10 @@
+const url=require('url')
+var adr="https://nodejs.org/api/url.html#url_the_whatwg_url_api"
+var s=url.parse(adr)
+console.log(s)
+var v=new URL('/get',"http://sowji.com/created")
+console.log(v)
+console.log(v.host)
+console.log(v.hostname)
+console.log(v.href)
+console.log(v.origin)
